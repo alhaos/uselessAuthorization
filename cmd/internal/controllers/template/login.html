@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            background-color: darkgray;
+        }
+
+        div.box {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 10px 20px 10px 10px;
+            width: 80%;
+            max-width: 300px;
+            border-radius: 5px;
+            background-color: #737373;
+            box-shadow: 10px 5px 5px black;
+            color: #000000;
+        }
+        input {
+            width: 100%;
+            background-color: #d3d3d3;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <h2>Please log in</h2>
+    <form action="/auth" method="post">
+        <label for="input-username">Login</label>
+        <input type="text" id="input-username" name="username">
+        <label for="input-password">Password</label>
+        <input type="password" id="input-password" name="password">
+        <input type="submit">
+    </form>
+</div>
+</body>
+</html>
