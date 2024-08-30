@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/alhaos/uselessAuthorization/cmd/internal/autorizaton"
-	"github.com/alhaos/uselessAuthorization/cmd/internal/controllers"
+	"github.com/alhaos/uselessAuthorization/internal/autorizaton"
+	"github.com/alhaos/uselessAuthorization/internal/controllers"
 	"github.com/gin-gonic/gin"
 	"log"
 )

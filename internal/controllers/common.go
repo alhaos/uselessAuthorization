@@ -3,7 +3,7 @@ package controllers
 import (
 	"embed"
 	"fmt"
-	"github.com/alhaos/uselessAuthorization/cmd/internal/autorizaton"
+	"github.com/alhaos/uselessAuthorization/internal/autorizaton"
 	"github.com/gin-gonic/gin"
 	"html/template"
 	"net/http"
